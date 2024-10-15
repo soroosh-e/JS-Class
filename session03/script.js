@@ -74,20 +74,20 @@ var fullName = function (first, last) {
     return 'welcome ' + first + ' ' + last + ' to our website';
 }
 
-var a = prompt('enter name')
-var b = prompt('enter lastname')
+// var a = prompt('enter name')
+// var b = prompt('enter lastname')
 
-alert(fullName(a, b))
+// alert(fullName(a, b))
 
-if (a) {
+// if (a) {
 
-} else if (b) {
+// } else if (b) {
 
-} else if (c) {
+// } else if (c) {
 
-} else {
+// } else {
 
-}
+// }
 
 
 //HW
@@ -101,3 +101,15 @@ if (a) {
 
 
 */
+
+var t1 = (89+120+103)/3
+var t2 = (116+94+123)/3
+var t3 = (97+134+105)/3
+
+if (t1 > t2 && t1 > t3) {
+    alert('t1 is winner')
+}else if (t2 > t1 && t2 > t3) {
+    alert('t2 is winner')
+}else {
+    alert('t3 is winner')
+}
