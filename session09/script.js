@@ -19,4 +19,13 @@ document.getElementById('button').addEventListener('click', function() {
 var Person = function(name, year) {
     this.name = name;
     this.year = year;
+    this.calcAge = function() {
+        console.log(2024 - this.year)
+    }
 }
+
+var john = new Person('john', 1994)
+var jane = new Person('jane', 1990)
+
+john.calcAge()
+console.log(jane.name)
